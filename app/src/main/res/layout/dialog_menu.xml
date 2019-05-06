@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:background="@drawable/ripple_button"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:background="@color/colorWhite"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:id="@+id/txtLike"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Like"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@drawable/ripple_button"
+        android:textColor="@color/colorWhite"
+        />
+
+</LinearLayout>
